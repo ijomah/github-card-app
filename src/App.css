@@ -1,0 +1,82 @@
+.App {
+  text-align: center;
+}
+
+img {
+  height: 40vmin;
+  pointer-events: none;
+  width: 10em;
+  height: 10em;
+}
+
+#root {
+  margin: 2em;
+}
+
+#formpart {
+  padding: 1em;
+  width: 20em;
+  margin: 0 auto;
+}
+
+#formpart h2 {
+  text-align: center;
+}
+
+#formpart form {
+  width: 78%;
+  height: 3em;
+  background-color: aquamarine;
+  padding: .5em;
+  padding-top: 2em;
+  margin: 0 auto;
+  border: solid 2px gainsboro;
+  border-radius: 6%;
+}
+
+#cardlist {
+  display: grid;
+  grid-template-columns: 3fr 3fr 3fr 3fr;
+}
+
+input {
+  border-color: aquamarine;
+  border-top-style: none;
+  border-left-style: none;
+  height: 2em;
+}
+
+button {
+  height: 2.3em;
+  border-color: gainsboro;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  img {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
